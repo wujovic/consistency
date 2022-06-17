@@ -1,5 +1,5 @@
 # Consistency
-Consistency is an app with aim to help people in accomplishing their everyday tasks. It's main focus is to be support, or a guide, in peoples everyday life, providing it's users with quotes, productivity tracking, weekly awards etc. 
+Consistency is an application that aims to help people accomplish their everyday tasks. It's main objective is to support, or guide, people in their everyday lives, providing it's users with quotes, productivity monitoring, weekly awards etc. 
 
 ## Main idea:
 - app where you can log your daily productivity
