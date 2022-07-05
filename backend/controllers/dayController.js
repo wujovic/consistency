@@ -6,7 +6,7 @@ const Day = require('../models/dayModel')
 // @route GET /api/days
 // @access Private
 const getDays = asyncHandler (async (req, res) => {
-    const days = await Day.find()
+    const days = await Day.find({ user: req.user.id })
     res.status(200).json(days)
 })
 
@@ -19,7 +19,8 @@ const setDay = asyncHandler (async (req, res) => {
     throw new Error('Please add a text field.')
    }
    const day = await Day.create({
-    text: req.body.text
+    text: req.body.text,
+    user: req.user.id
    })
     res.status(200).json(day)
 })
